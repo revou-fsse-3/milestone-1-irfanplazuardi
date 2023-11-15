@@ -1,0 +1,52 @@
+.get-app img {
+  height: 150px;
+  width: 450px;
+}
+
+.footer-grid-container {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: repeat(2, 0.5fr);
+}
+
+#footer span {
+  color: #fff;
+}
+
+#footer .logo {
+  display: flex;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: backround-color 0.3s;
+}
+
+.get-app {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.copyright {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

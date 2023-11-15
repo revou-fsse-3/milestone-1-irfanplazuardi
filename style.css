@@ -1,0 +1,70 @@
+@import url(asset/css/header.css);
+@import url(asset/css/feature.css);
+@import url(asset/css/patnership.css);
+@import url(asset/css/review.css);
+@import url(asset/css/footer.css);
+@import url(asset/css/responsive.css);
+
+* {
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 15px; /* Padding around the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hamburger-menu {
+  display: none; /* Hide the hamburger menu by default */
+}
+
+.logo {
+  font-size: 3rem;
+  color: #ffcc00; /* Color of the logo text */
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffcc00; /* Color of the logo text */
+  padding-left: 3rem;
+}
+
+.menubar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 0.5rem;
+  display: flex;
+}
+
+.menubar li {
+  margin: 0 15px; /* Spacing between each menu item */
+}
+
+.menubar a {
+  text-decoration: none;
+  color: #fff; /* Color of the menu items */
+  font-weight: bold; /* Font weight of the menu items */
+  font-size: 1.2rem;
+}
+
+/* Change color on hover for better user experience */
+.menubar a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 25px;
+}

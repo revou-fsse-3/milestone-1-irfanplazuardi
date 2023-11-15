@@ -1,0 +1,24 @@
+#patnership {
+  background-color: #ffa33c;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#patnership h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.image-flex-container img {
+  height: 290px;
+  width: 425px;
+}
