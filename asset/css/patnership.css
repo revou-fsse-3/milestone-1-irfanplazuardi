@@ -6,6 +6,7 @@
 
 #patnership h1 {
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -21,4 +22,29 @@
   height: 290px;
   width: 425px;
   max-width: 100%;
+  filter: grayscale(90%);
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+.image-flex-container img:hover {
+  filter: grayscale(0);
+  animation: enlargeAnimation 0.5s ease forwards;
+}
+
+@keyframes enlargeAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes enlargeAnimation2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }

@@ -210,3 +210,30 @@ p {
     width: 300px;
   }
 }
+
+/* <body>
+    <style>
+      .test {
+        max-width: 600px;
+        overflow-x: scroll;
+        display: flex;
+        justify-content: center;
+        scroll-snap-type: x mandatory;
+      }
+      .card {
+        scroll-snap-align: center;
+        flex-shrink: 0;
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        margin-right: 4rem;
+      }
+    </style>
+    <div class="test">
+      <div class="card">1</div>
+      <div class="card">2</div>
+      <div class="card">3</div>
+      <div class="card">4</div>
+      <div class="card">5</div>
+    </div>
+  </body> */

@@ -12,6 +12,8 @@
 .feature-title h1 {
   font-size: 2.5rem;
   color: #333;
+  margin-top: 50px;
+  text-transform: capitalize;
 }
 
 .feature-title p {
@@ -39,6 +41,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+
+.feature-box:hover {
+  animation: enlargeAnimation2 0.5s ease forwards;
 }
 
 .coure .feature-box i {
