@@ -6,7 +6,6 @@
 
 #patnership h1 {
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -21,4 +20,5 @@
 .image-flex-container img {
   height: 290px;
   width: 425px;
+  max-width: 100%;
 }

@@ -1,32 +1,26 @@
 .get-app img {
   height: 150px;
-  width: 450px;
+  width: 150px;
 }
 
 .footer-grid-container {
   background-color: #000;
   display: grid;
-  grid-template-columns: repeat(3, 0.5fr);
-  grid-template-rows: repeat(2, 0.5fr);
-}
-
-#footer span {
-  color: #fff;
+  grid-template-columns: repeat(3, 0.3fr);
 }
 
 #footer .logo {
   display: flex;
   grid-column: 1;
-  grid-row: 1;
   text-align: center;
   align-items: center;
   justify-content: center;
+  text-shadow: #fff 1px 0 50px;
 }
 
 .social-media {
   display: flex;
   grid-column: 2;
-  grid-row: 1;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -36,17 +30,20 @@
 
 .get-app {
   grid-column: 3;
-  grid-row: 1;
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
+  gap: 2rem;
 }
 
 .copyright {
   grid-column: 1 / 4;
-  grid-row: 2;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.copyright span {
+  color: #fff;
 }

@@ -3,6 +3,10 @@
   width: 550px;
 }
 
+.header-text1 h1 {
+  color: #ffcc00;
+  text-shadow: 5px 5px 5px #000;
+}
 .header-grid {
   display: grid;
   grid-template-columns: 40% 10% 50%;

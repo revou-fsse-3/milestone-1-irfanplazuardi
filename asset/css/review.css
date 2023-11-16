@@ -1,6 +1,6 @@
 #reviews {
   background-color: #f8f8f8;
-  padding-bottom: 50px;
+  padding: 80px 0;
 }
 
 .client-box img {
@@ -14,6 +14,10 @@
 #reviews h1 {
   text-align: center;
   padding: 50px;
+}
+
+#reviews h2 {
+  font-size: 25px;
 }
 
 .client-wrapper {

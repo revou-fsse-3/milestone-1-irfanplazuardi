@@ -6,7 +6,6 @@
 
 .feature-title {
   margin-bottom: 30px;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -42,7 +41,7 @@
   justify-content: space-between;
 }
 
-.feature-box i {
+.coure .feature-box i {
   font-size: 4rem;
   color: #0ced84;
   margin-bottom: 15px;
