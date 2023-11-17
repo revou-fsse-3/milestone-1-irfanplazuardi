@@ -31,12 +31,18 @@ For any feedback feel free to contact me [linkedin](https://www.linkedin.com/in/
 To be able to access this project, make sure you have a github account and you can follow these steps:
 
 1. Clone this repository
-   `https://github.com/revou-fsse-3/milestone-1-irfanplazuardi.git`
-2. Create a new branch name "development" to seperate branch with main branch
-   `git branch -b "development"`
-3. Checkout to the new branch
-   `git checkout -b "development`
-4. Modify the website with your personal preferences, once it isdone you will need to push your code
+```
+   https://github.com/revou-fsse-3/milestone-1-irfanplazuardi.git
+```
+3. Create a new branch name "development" to seperate branch with main branch
+```
+   git branch -b "development"
+```
+5. Checkout to the new branch
+```
+   git checkout -b "development
+```
+7. Modify the website with your personal preferences, once it isdone you will need to push your code
 
 ```
 git add.
