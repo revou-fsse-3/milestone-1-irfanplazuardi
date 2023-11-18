@@ -63,15 +63,19 @@ git push origin main
 ### Setup Fontawesome
 
 1. open [cdn fontawesome](https://cdnjs.com/libraries/font-awesome) and copy the latest library link
-   `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css`
-2. Open your project in vs code and paste link inside the HTML head
-3. Next choose your desired font awesome icon at [fontawesome.com](https://fontawesome.com/)
-4. Search your icon by clicking the search button and type your desired icon, for example "Instagram"
-5. Set icon design from color, animation, size, and position
-6. copy HTML code
-7. Go back to the vscode html file and paste the code, you can style it manually in HTML to get the exact size and color.
-   ` <i class="fa-brands fa-Instagram" style="color: #ec0909; font-size: 4rem"></i>">`
-8. Check your code by clicking go live (make sure you have installed extension[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in vscode )
+```
+   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+```
+3. Open your project in vs code and paste link inside the HTML head
+4. Next choose your desired font awesome icon at [fontawesome.com](https://fontawesome.com/)
+5. Search your icon by clicking the search button and type your desired icon, for example "Instagram"
+6. Set icon design from color, animation, size, and position
+7. copy HTML code
+8. Go back to the vscode html file and paste the code, you can style it manually in HTML to get the exact size and color.
+```
+   <i class="fa-brands fa-Instagram" style="color: #ec0909; font-size: 4rem"></i>">
+```
+10. Check your code by clicking go live (make sure you have installed extension[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in vscode )
 
 ### Setup Font
 
