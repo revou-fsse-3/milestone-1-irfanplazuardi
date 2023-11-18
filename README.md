@@ -40,7 +40,7 @@ To be able to access this project, make sure you have a github account and you c
 ```
 5. Checkout to the new branch
 ```
-   git checkout -b "development
+   git checkout -b "development"
 ```
 7. Modify the website with your personal preferences, once it is done you will need to push your code
 
