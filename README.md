@@ -62,9 +62,9 @@ git push origin main
 
 ### Setup Fontawesome
 
-1. open [cdn fontawesome](https://cdnjs.com/libraries/font-awesome) and copy the latest library link
+1. open [cdn fontawesome](https://cdnjs.com/libraries/font-awesome) and copy the latest library link tag
 ```
-   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 ```
 3. Open your project in vs code and paste link inside the HTML head
 4. Next choose your desired font awesome icon at [fontawesome.com](https://fontawesome.com/)
